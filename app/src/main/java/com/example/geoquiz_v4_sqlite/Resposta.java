@@ -7,9 +7,9 @@ public class Resposta {
     private UUID mId;
     private boolean mColou;
     private String mRespostaOferecida;
-    private int mRespostaCorreta;
+    private boolean mRespostaCorreta;
 
-    public Resposta(boolean Colou, int RespostaCorreta, String RespostaOferecida) {
+    public Resposta(boolean Colou, boolean RespostaCorreta, String RespostaOferecida) {
         this.mRespostaCorreta = RespostaCorreta;
         this.mColou = Colou;
         this.mRespostaOferecida = RespostaOferecida;
@@ -26,11 +26,11 @@ public class Resposta {
         mColou = colou;
     }
 
-    public int getRespostaCorreta() {
+    public boolean getRespostaCorreta() {
         return mRespostaCorreta;
     }
 
-    public void setRespostaCorreta(int respostaCorreta) {
+    public void setRespostaCorreta(boolean respostaCorreta) {
         mRespostaCorreta = respostaCorreta;
     }
 

@@ -54,15 +54,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/botao_cadastra"
-            android:layout_width="127dp"
-            android:layout_height="wrap_content"
-            android:text="Cadastra" />
 
         <Button
-            android:id="@+id/botao_mostra_questoes"
-            android:layout_width="wrap_content"
+            android:id="@+id/botao_mostra_respostas"
+            android:layout_width="207dp"
             android:layout_height="wrap_content"
             android:text="Mostra" />
 
@@ -79,14 +74,14 @@
         android:layout_below="@+id/view_scrolavel">
 
         <TextView
-            android:id="@+id/texto_questoes_a_apresentar"
+            android:id="@+id/texto_respostas_a_apresentar"
             android:autoLink = "web"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:lineSpacingExtra="@dimen/espaco_de_linhas"
             android:padding="@dimen/padding_regular"
-            android:text="@string/texto_padrao_mostra_questoes" />
+            android:text="@string/texto_padrao_mostra_respostas" />
     </ScrollView>
 
 </LinearLayout>
